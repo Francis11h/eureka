@@ -1,0 +1,25 @@
+eureka:
+  client:
+    service-url:
+      defalutZone: http://localhost:8761/eureka/
+    #这行就是不让eureka自己注册自己
+#    register-with-eureka: false
+
+
+# 不要死记这种配置 可以点进去看 发现是个 Map
+# private Map<String, String> serviceUrl = new HashMap<>();
+#	{
+#		this.serviceUrl.put(DEFAULT_ZONE, DEFAULT_URL);
+#	}
+
+#    再往上找发现
+#  public static final String DEFAULT_ZONE = "defaultZone";
+#  public static final String DEFAULT_URL = "http://localhost:8761" + DEFAULT_PREFIX
+#  + "/";
+spring:
+  application:
+    name: eureka
+
+#    整个项目的占用端口
+server:
+  port: 8761
