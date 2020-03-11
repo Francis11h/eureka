@@ -27,6 +27,12 @@ eureka 英文单词的意思： 找到了！有了！   注册发现 就是找�
 ![启动2](https://github.com/Francis11h/eureka/blob/master/img-storage/4.png)
 
 ## 设置后台进程启动
+jar 包启动还是 麻烦 我们直接设置成 后台的进程 只要不关机 这个进程就一直跑着
+用命令 ***nohup java -jar target/eureka-0.0.1-SNAPSHOT.jar > /dev/null 2>&1 &***
+
+查看与eureka有关的后台进程 ***ps -ef | grep eureka***
+
+
 
 Eureka Client
 
