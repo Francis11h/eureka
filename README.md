@@ -13,3 +13,16 @@ eureka 英文单词的意思： 找到了！有了！   注册发现 就是找�
 
 
 ![eureka register](https://github.com/Francis11h/eureka/blob/master/img-storage/1.png)
+
+
+
+## **打包**
+由于每次都要开 eureka server 但每次进ide里再开 太麻烦了 于是我们可以去 eureka server目录下 打包 打成一个jar包
+命令 ***mvn clean package*** 
+打完的jar包在target文件夹中
+进入该文件夹 再用java 命令***java -jar target/eureka-0.0.1-SNAPSHOT.jar *** 启动下 
+
+
+Eureka Client
+
+
