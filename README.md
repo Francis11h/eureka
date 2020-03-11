@@ -8,3 +8,6 @@ EureKa Server
 微服务中 习惯把一个应用说成一个服务 某某应用 某某服务 说的是同一个东西
 
 eureka 英文单词的意思： 找到了！有了！   注册发现 就是找到了的意思。。。
+
+
+![1]https://github.com/Francis11h/eureka/blob/master/img-storage/1.png
